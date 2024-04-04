@@ -1,7 +1,7 @@
 html {
     height: 100%; 
     background-color: #0A131A !important;
-    color: #FFFFFF;
+    color: #D6D6D6;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #0A131A; /* Ensure consistency in background color */
-    color: #FFFFFF;
+    color: #D6D6D6;
     min-height: 100%; /* Ensure body takes at least full height */
     display: flex;
     flex-direction: column; /* Stack elements vertically */
@@ -65,13 +65,9 @@ footer {
     margin-top: auto; /* Push footer to the bottom */
 }
 
-.footer-content {
-    margin-bottom: 50px;
-}
-
 .contact-info {
     display: block;
-    color: #0A131A; /* Ensuring readability on lighter background elements */
+    color: #D6D6D6; /* Ensuring readability on lighter background elements */
 }
 
 @media screen and (max-width: 600px) {
