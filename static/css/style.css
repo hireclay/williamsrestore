@@ -21,9 +21,10 @@ header {
     text-align: center; /* Adjusted for non-centered text */
 }
 
-.logo-container {
-    display: inline-block;
-    width: 60%;
+.logo-container img.logo {
+    width: 200px; /* Example fixed width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* To prevent inline display default space */
 }
 
 .logo {
@@ -65,9 +66,8 @@ footer {
     margin-top: auto; /* Push footer to the bottom */
 }
 
-.contact-info {
-    display: block;
-    color: #D6D6D6; /* Ensuring readability on lighter background elements */
+.contact-info a {
+    color: #D6D6D6;
 }
 
 @media screen and (max-width: 600px) {
