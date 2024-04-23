@@ -1,58 +1,58 @@
 html {
     height: 100%; 
-    background-color: #121212 !important; /* #121212 #0A131A */
-    color: #D6D6D6;
+    background-color: #121212 !important; /* Consistent dark background across the page */
+    color: #D6D6D6; /* Light grey text color for contrast */
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #121212; /* Ensure consistency in background color */
+    font-family: 'Arial', sans-serif; /* Ensures text uses Arial or a sans-serif fallback */
+    background-color: #121212; /* Consistent background color */
     color: #D6D6D6;
-    min-height: 100%; /* Ensure body takes at least full height */
+    min-height: 100%; /* Full viewport height */
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column; /* Vertical stacking of content */
 }
 
 header {
     margin: 0 auto;
-    padding: 20px 0; /* Adds padding around the header content */
-    text-align: center; /* Adjusted for non-centered text */
+    padding: 20px 0; /* Vertical padding around the header */
+    text-align: center; /* Center-align text within the header */
 }
 
 .logo-container img.logo {
-    width: 200px; /* Example fixed width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* To prevent inline display default space */
+    width: 200px; /* Fixed width for logo */
+    height: auto; /* Auto-adjust height to maintain aspect ratio */
+    display: block; /* Block display to remove bottom space typical of inline elements */
 }
 
 .logo {
-    max-width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centers the logo horizontally */
+    max-width: 90%; /* Logo width up to 90% of its container */
+    height: auto; /* Auto height to maintain aspect ratio */
+    display: block; /* Ensures the logo is a block element */
+    margin: 0 auto; /* Horizontally centers the logo */
 }
 
 .content {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #121212;
-    word-wrap: normal;
-    word-break: keep-all;
-    hyphens: none;
-    text-align: left;
+    padding: 20px; /* Padding around the content */
+    max-width: 800px; /* Max-width for the content area */
+    margin: 0 auto; /* Centering content block horizontally */
+    background-color: #121212; /* Matching the body background */
+    word-wrap: normal; /* Normal text wrapping */
+    word-break: keep-all; /* Prevents breaking words across lines */
+    hyphens: none; /* Disables hyphenation */
+    text-align: left; /* Text aligned to the left */
 }
 
 footer {
-    background-color: #121212; /* Match the footer background with the body */
-    text-align: center;
-    padding: 20px 0; /* Adjust padding as needed, remove vertical margins if any */
-    width: 100%;
-    margin-top: auto; /* Push footer to the bottom */
+    background-color: #121212; /* Consistent footer background with the rest of the body */
+    text-align: center; /* Center-aligned footer text */
+    padding: 20px 0; /* Padding inside the footer */
+    width: 100%; /* Full width */
+    margin-top: auto; /* Forces the footer to the bottom of the viewport if there's space */
 }
 
 .contact-info a {
-    color: #D6D6D6;
+    color: #D6D6D6; /* Light grey text color for links for readability */
 }
